@@ -1,0 +1,44 @@
+<div>
+    <div>
+        <h1> Invest in the Future! </h1>
+        <h5> Please fill out the requested information to personalize your authorship experience on PlanetLAB. </h5>
+        <div>
+            <label> User Name: </label>
+            <h3> {{user.user.username}}</h3>
+        </div>
+        <div>
+            <img ng-src="{{user.user.avatar_url}}">
+        </div>
+        <div>
+            <label> User ID: </label>
+            <h3>{{user.user.id}}</h3>
+        </div>
+    </div>
+    <div>
+        <h4> More about You </h4>
+        <div>
+            <label>First Name</label>
+            <input type="text" ng-model="user.user.name" placeholder="Enter First Name">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="Email" placeholder="Enter Email" ng-model="user.user.email">
+        </div>
+    </div>
+    <div>
+        <div>
+            <label> What is your vision for PlanetLAB?</label>
+            <textarea ng-model="user.user.description" id="plTextArea" ng-trim="false" maxlength="300" placeholder="Inspire Us @  PlanetLAB" rows="5"></textarea>
+            <span> {{300-(user.user.description).length}} left </span>
+        </div>
+    </div>
+    <div>
+        <div>
+            <p>Change Your Avatar:
+                <img ng-src="{{ user.user.avatar_url }}">
+                <input type="file" ng-file-select="user.onFileSelect($files)">
+            </p>
+        </div>
+    </div>
+    <button ng-click="user.save()">Save</button>
+</div>

@@ -6,10 +6,9 @@
   "license": "BSD3",
   "dependencies": {
     "angular": "1.2.x",
-    "angular-mocks": "~1.2.x",
     "danialfarid-angular-file-upload": "~1.4.x",
     "angular-ui-router": "~0.2.x",
     "angular-resource": "~1.2.x",
-    "angular-xeditable": "~0.1.x"
+    "angular-ui-select": "~0.11.x"
   }
 }

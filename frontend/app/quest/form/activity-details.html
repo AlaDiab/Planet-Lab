@@ -1,0 +1,92 @@
+<h1> Quest Activity Details </h1>
+<div>
+    <div>
+        <h3>Duration</h3>
+        <div>
+            <label>Hours Required</label>
+            <select ng-model="questForm.quest.hours_required">
+                <option hours="1">Choose</option>
+                <option hours="1">1</option>
+                <option hours="2">2</option>
+                <option hours="3">3</option>
+                <option hours="4">4</option>
+                <option hours="5">5</option>
+                <option hours="6">6</option>
+            </select>
+        </div>
+        <div>
+            <label>Minutes Required</label>
+            <select ng-model="questForm.quest.minutes_required">
+                <option minutes="10">Choose</option>
+                <option minutes="10">10</option>
+                <option minutes="20">20</option>
+                <option minutes="30">30</option>
+                <option minutes="40">40</option>
+                <option minutes="50">50</option>
+            </select>
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>Material</h3>
+            <div>
+                <label> Enter material for this quest.</label>
+                <input type="text" placeholder="Enter Material">
+            </div>
+            <div>
+                <label> Qty</label>
+                <input type="text">
+            </div>
+            <div>
+                <label> Cost</label>
+                <input type="text" placeholder="Enter Cost">
+            </div>
+        </div>
+    </div>
+    <div>
+        <h3>Enquiry Questions</h3>
+        <div>
+            <label> Enter questions to encourage deep understanding.</label>
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>Quiz</h3>
+            <div>
+                <input type="text" ng-model="questions.description" placeholder="Enter Question">
+            </div>
+        </div>
+        <div>
+            <div>
+                <input type="text" ng-model="multiple_choices.answer" placeholder="Enter Choice1">
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="checkbox" value="value">This is the Correct Answer
+                </label>
+            </div>
+        </div>
+        <div>
+            <div>
+                <input type="text" placeholder="Enter Choice2">
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="checkbox" value="value">This is the Correct Answer
+                </label>
+            </div>
+        </div>
+        <div>
+            <div>
+                <input type="text" placeholder="Enter Choice3">
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="checkbox" value="value">This is the Correct Answer
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of container element -->
+<a ui-sref="quests.form.teachers" role="button">Continue to Next Step</a>
