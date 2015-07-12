@@ -1,0 +1,683 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/aladiab/.nvm/versions/node/v0.12.4/bin/node',
+1 verbose cli   '/Users/aladiab/.nvm/versions/node/v0.12.4/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose readDependencies loading dependencies from /Users/aladiab/Repos/Planet-Lab/frontend/package.json
+5 verbose install where, deps [ '/Users/aladiab/Repos/Planet-Lab/frontend',
+5 verbose install   [ 'execSync',
+5 verbose install     'karma',
+5 verbose install     'karma-chrome-launcher',
+5 verbose install     'karma-firefox-launcher',
+5 verbose install     'karma-jasmine',
+5 verbose install     'protractor' ] ]
+6 verbose install where, peers [ '/Users/aladiab/Repos/Planet-Lab/frontend', [] ]
+7 verbose installManyTop reading for lifecycle /Users/aladiab/Repos/Planet-Lab/frontend/package.json
+8 info preinstall PlanetLab@0.0.0
+9 verbose readDependencies loading dependencies from /Users/aladiab/Repos/Planet-Lab/frontend/package.json
+10 silly cache add args [ 'karma-chrome-launcher@0.1.4', null ]
+11 verbose cache add spec karma-chrome-launcher@0.1.4
+12 silly cache add parsed spec { raw: 'karma-chrome-launcher@0.1.4',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'karma-chrome-launcher',
+12 silly cache add   rawSpec: '0.1.4',
+12 silly cache add   spec: '0.1.4',
+12 silly cache add   type: 'version' }
+13 silly addNamed karma-chrome-launcher@0.1.4
+14 verbose addNamed "0.1.4" is a plain semver version for karma-chrome-launcher
+15 silly mapToRegistry name karma-chrome-launcher
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/karma-chrome-launcher
+19 verbose addNameVersion registry:https://registry.npmjs.org/karma-chrome-launcher not in flight; fetching
+20 silly cache add args [ 'karma-firefox-launcher@0.1.3', null ]
+21 verbose cache add spec karma-firefox-launcher@0.1.3
+22 silly cache add parsed spec { raw: 'karma-firefox-launcher@0.1.3',
+22 silly cache add   scope: null,
+22 silly cache add   name: 'karma-firefox-launcher',
+22 silly cache add   rawSpec: '0.1.3',
+22 silly cache add   spec: '0.1.3',
+22 silly cache add   type: 'version' }
+23 silly addNamed karma-firefox-launcher@0.1.3
+24 verbose addNamed "0.1.3" is a plain semver version for karma-firefox-launcher
+25 silly mapToRegistry name karma-firefox-launcher
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/karma-firefox-launcher
+29 verbose addNameVersion registry:https://registry.npmjs.org/karma-firefox-launcher not in flight; fetching
+30 silly cache add args [ 'karma-jasmine@^0.1.5', null ]
+31 verbose cache add spec karma-jasmine@^0.1.5
+32 silly cache add parsed spec { raw: 'karma-jasmine@^0.1.5',
+32 silly cache add   scope: null,
+32 silly cache add   name: 'karma-jasmine',
+32 silly cache add   rawSpec: '^0.1.5',
+32 silly cache add   spec: '>=0.1.5 <0.2.0',
+32 silly cache add   type: 'range' }
+33 silly addNamed karma-jasmine@>=0.1.5 <0.2.0
+34 verbose addNamed ">=0.1.5 <0.2.0" is a valid semver range for karma-jasmine
+35 silly addNameRange { name: 'karma-jasmine',
+35 silly addNameRange   range: '>=0.1.5 <0.2.0',
+35 silly addNameRange   hasData: false }
+36 silly mapToRegistry name karma-jasmine
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/karma-jasmine
+40 verbose addNameRange registry:https://registry.npmjs.org/karma-jasmine not in flight; fetching
+41 silly cache add args [ 'protractor@~1.0.0', null ]
+42 verbose cache add spec protractor@~1.0.0
+43 silly cache add parsed spec { raw: 'protractor@~1.0.0',
+43 silly cache add   scope: null,
+43 silly cache add   name: 'protractor',
+43 silly cache add   rawSpec: '~1.0.0',
+43 silly cache add   spec: '>=1.0.0 <1.1.0',
+43 silly cache add   type: 'range' }
+44 silly addNamed protractor@>=1.0.0 <1.1.0
+45 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for protractor
+46 silly addNameRange { name: 'protractor', range: '>=1.0.0 <1.1.0', hasData: false }
+47 silly mapToRegistry name protractor
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry uri https://registry.npmjs.org/protractor
+51 verbose addNameRange registry:https://registry.npmjs.org/protractor not in flight; fetching
+52 silly cache add args [ 'execSync@^1.0.1', null ]
+53 verbose cache add spec execSync@^1.0.1
+54 silly cache add parsed spec { raw: 'execSync@^1.0.1',
+54 silly cache add   scope: null,
+54 silly cache add   name: 'execSync',
+54 silly cache add   rawSpec: '^1.0.1',
+54 silly cache add   spec: '>=1.0.1 <2.0.0',
+54 silly cache add   type: 'range' }
+55 silly addNamed execSync@>=1.0.1 <2.0.0
+56 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for execSync
+57 silly addNameRange { name: 'execSync', range: '>=1.0.1 <2.0.0', hasData: false }
+58 silly mapToRegistry name execSync
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry https://registry.npmjs.org/
+61 silly mapToRegistry uri https://registry.npmjs.org/execSync
+62 verbose addNameRange registry:https://registry.npmjs.org/execSync not in flight; fetching
+63 silly cache add args [ 'karma@^0.12.16', null ]
+64 verbose cache add spec karma@^0.12.16
+65 silly cache add parsed spec { raw: 'karma@^0.12.16',
+65 silly cache add   scope: null,
+65 silly cache add   name: 'karma',
+65 silly cache add   rawSpec: '^0.12.16',
+65 silly cache add   spec: '>=0.12.16 <0.13.0',
+65 silly cache add   type: 'range' }
+66 silly addNamed karma@>=0.12.16 <0.13.0
+67 verbose addNamed ">=0.12.16 <0.13.0" is a valid semver range for karma
+68 silly addNameRange { name: 'karma', range: '>=0.12.16 <0.13.0', hasData: false }
+69 silly mapToRegistry name karma
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry uri https://registry.npmjs.org/karma
+73 verbose addNameRange registry:https://registry.npmjs.org/karma not in flight; fetching
+74 verbose request uri https://registry.npmjs.org/karma-firefox-launcher
+75 verbose request no auth needed
+76 info attempt registry request try #1 at 1:12:33 PM
+77 verbose request id 0ff7777c5e992acf
+78 http request GET https://registry.npmjs.org/karma-firefox-launcher
+79 verbose request uri https://registry.npmjs.org/karma-chrome-launcher
+80 verbose request no auth needed
+81 info attempt registry request try #1 at 1:12:33 PM
+82 http request GET https://registry.npmjs.org/karma-chrome-launcher
+83 verbose request uri https://registry.npmjs.org/karma-jasmine
+84 verbose request no auth needed
+85 info attempt registry request try #1 at 1:12:33 PM
+86 http request GET https://registry.npmjs.org/karma-jasmine
+87 verbose request uri https://registry.npmjs.org/protractor
+88 verbose request no auth needed
+89 info attempt registry request try #1 at 1:12:33 PM
+90 http request GET https://registry.npmjs.org/protractor
+91 verbose request uri https://registry.npmjs.org/execSync
+92 verbose request no auth needed
+93 info attempt registry request try #1 at 1:12:33 PM
+94 http request GET https://registry.npmjs.org/execSync
+95 verbose request uri https://registry.npmjs.org/karma
+96 verbose request no auth needed
+97 info attempt registry request try #1 at 1:12:33 PM
+98 http request GET https://registry.npmjs.org/karma
+99 http 200 https://registry.npmjs.org/karma-jasmine
+100 silly get cb [ 200,
+100 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+100 silly get     etag: '"86QZTJFKQWA7461WO9QAL7Y6A"',
+100 silly get     'content-type': 'application/json',
+100 silly get     'cache-control': 'max-age=60',
+100 silly get     'content-length': '35201',
+100 silly get     'accept-ranges': 'bytes',
+100 silly get     date: 'Fri, 03 Jul 2015 18:12:34 GMT',
+100 silly get     via: '1.1 varnish',
+100 silly get     age: '27',
+100 silly get     connection: 'keep-alive',
+100 silly get     'x-served-by': 'cache-dfw1828-DFW',
+100 silly get     'x-cache': 'HIT',
+100 silly get     'x-cache-hits': '2',
+100 silly get     'x-timer': 'S1435947154.577249,VS0,VE0',
+100 silly get     vary: 'Accept' } ]
+101 verbose get saving karma-jasmine to /Users/aladiab/.npm/registry.npmjs.org/karma-jasmine/.cache.json
+102 silly addNameRange number 2 { name: 'karma-jasmine', range: '>=0.1.5 <0.2.0', hasData: true }
+103 silly addNameRange versions [ 'karma-jasmine',
+103 silly addNameRange   [ '0.0.1',
+103 silly addNameRange     '0.0.2',
+103 silly addNameRange     '0.0.3',
+103 silly addNameRange     '0.1.0',
+103 silly addNameRange     '0.1.1',
+103 silly addNameRange     '0.1.2',
+103 silly addNameRange     '0.1.3',
+103 silly addNameRange     '0.1.4',
+103 silly addNameRange     '0.1.5',
+103 silly addNameRange     '0.2.0',
+103 silly addNameRange     '0.2.1',
+103 silly addNameRange     '0.2.2',
+103 silly addNameRange     '0.2.3',
+103 silly addNameRange     '0.3.0',
+103 silly addNameRange     '0.3.1',
+103 silly addNameRange     '0.3.2',
+103 silly addNameRange     '0.3.3',
+103 silly addNameRange     '0.3.4',
+103 silly addNameRange     '0.3.5',
+103 silly addNameRange     '0.3.6' ] ]
+104 silly addNamed karma-jasmine@0.1.5
+105 verbose addNamed "0.1.5" is a plain semver version for karma-jasmine
+106 silly mapToRegistry name karma-jasmine
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry uri https://registry.npmjs.org/karma-jasmine
+110 verbose addRemoteTarball https://registry.npmjs.org/karma-jasmine/-/karma-jasmine-0.1.5.tgz not in flight; adding
+111 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-jasmine/-/karma-jasmine-0.1.5.tgz',
+111 verbose addRemoteTarball   '924c02ddb5d93737eb82832cffd5d75186d34a26' ]
+112 info retry fetch attempt 1 at 1:12:34 PM
+113 info attempt registry request try #1 at 1:12:34 PM
+114 http fetch GET https://registry.npmjs.org/karma-jasmine/-/karma-jasmine-0.1.5.tgz
+115 http fetch 200 https://registry.npmjs.org/karma-jasmine/-/karma-jasmine-0.1.5.tgz
+116 silly fetchAndShaCheck shasum 924c02ddb5d93737eb82832cffd5d75186d34a26
+117 verbose addTmpTarball /var/folders/sz/yvsqhf_s19j180lt5xzjy5tc0000gp/T/npm-2486-3d60517d/registry.npmjs.org/karma-jasmine/-/karma-jasmine-0.1.5.tgz not in flight; adding
+118 verbose addTmpTarball already have metadata; skipping unpack for karma-jasmine@0.1.5
+119 silly cache afterAdd karma-jasmine@0.1.5
+120 verbose afterAdd /Users/aladiab/.npm/karma-jasmine/0.1.5/package/package.json not in flight; writing
+121 verbose afterAdd /Users/aladiab/.npm/karma-jasmine/0.1.5/package/package.json written
+122 http 200 https://registry.npmjs.org/protractor
+123 silly get cb [ 200,
+123 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+123 silly get     etag: '"B5G5BERVU2YPZK15043X017JA"',
+123 silly get     'content-type': 'application/json',
+123 silly get     'cache-control': 'max-age=60',
+123 silly get     'content-length': '88008',
+123 silly get     'accept-ranges': 'bytes',
+123 silly get     date: 'Fri, 03 Jul 2015 18:12:34 GMT',
+123 silly get     via: '1.1 varnish',
+123 silly get     age: '0',
+123 silly get     connection: 'keep-alive',
+123 silly get     'x-served-by': 'cache-dfw1829-DFW',
+123 silly get     'x-cache': 'HIT',
+123 silly get     'x-cache-hits': '1',
+123 silly get     'x-timer': 'S1435947154.527543,VS0,VE265',
+123 silly get     vary: 'Accept' } ]
+124 verbose get saving protractor to /Users/aladiab/.npm/registry.npmjs.org/protractor/.cache.json
+125 silly addNameRange number 2 { name: 'protractor', range: '>=1.0.0 <1.1.0', hasData: true }
+126 silly addNameRange versions [ 'protractor',
+126 silly addNameRange   [ '0.1.0',
+126 silly addNameRange     '0.1.1',
+126 silly addNameRange     '0.1.2',
+126 silly addNameRange     '0.1.3',
+126 silly addNameRange     '0.2.0',
+126 silly addNameRange     '0.2.1',
+126 silly addNameRange     '0.3.0',
+126 silly addNameRange     '0.4.0',
+126 silly addNameRange     '0.4.1',
+126 silly addNameRange     '0.5.0',
+126 silly addNameRange     '0.6.1',
+126 silly addNameRange     '0.7.0',
+126 silly addNameRange     '0.8.0',
+126 silly addNameRange     '0.9.0',
+126 silly addNameRange     '0.10.0',
+126 silly addNameRange     '0.11.0',
+126 silly addNameRange     '0.12.0',
+126 silly addNameRange     '0.12.1',
+126 silly addNameRange     '0.13.0',
+126 silly addNameRange     '0.14.0',
+126 silly addNameRange     '0.15.0',
+126 silly addNameRange     '0.16.0',
+126 silly addNameRange     '0.16.1',
+126 silly addNameRange     '0.17.0',
+126 silly addNameRange     '0.18.0',
+126 silly addNameRange     '0.18.1',
+126 silly addNameRange     '0.19.0',
+126 silly addNameRange     '0.20.0',
+126 silly addNameRange     '0.20.1',
+126 silly addNameRange     '0.21.0',
+126 silly addNameRange     '0.22.0',
+126 silly addNameRange     '0.23.0',
+126 silly addNameRange     '0.23.1',
+126 silly addNameRange     '0.24.0',
+126 silly addNameRange     '0.24.1',
+126 silly addNameRange     '0.24.2',
+126 silly addNameRange     '1.0.0-rc1',
+126 silly addNameRange     '1.0.0-rc2',
+126 silly addNameRange     '1.0.0-rc3',
+126 silly addNameRange     '1.0.0-rc4',
+126 silly addNameRange     '1.0.0-rc5',
+126 silly addNameRange     '1.0.0-rc6',
+126 silly addNameRange     '1.0.0',
+126 silly addNameRange     '1.1.0',
+126 silly addNameRange     '1.1.1',
+126 silly addNameRange     '1.2.0-beta1',
+126 silly addNameRange     '1.2.0',
+126 silly addNameRange     '1.3.0',
+126 silly addNameRange     '1.3.1',
+126 silly addNameRange     '1.4.0',
+126 silly addNameRange     '1.5.0',
+126 silly addNameRange     '1.6.0',
+126 silly addNameRange     '1.6.1',
+126 silly addNameRange     '1.7.0',
+126 silly addNameRange     '1.8.0',
+126 silly addNameRange     '2.0.0',
+126 silly addNameRange     '2.1.0' ] ]
+127 silly addNamed protractor@1.0.0
+128 verbose addNamed "1.0.0" is a plain semver version for protractor
+129 silly mapToRegistry name protractor
+130 silly mapToRegistry using default registry
+131 silly mapToRegistry registry https://registry.npmjs.org/
+132 silly mapToRegistry uri https://registry.npmjs.org/protractor
+133 verbose addRemoteTarball https://registry.npmjs.org/protractor/-/protractor-1.0.0.tgz not in flight; adding
+134 verbose addRemoteTarball [ 'https://registry.npmjs.org/protractor/-/protractor-1.0.0.tgz',
+134 verbose addRemoteTarball   '3b0305712b5fff351b72f80e59c4e0874ea8a473' ]
+135 info retry fetch attempt 1 at 1:12:35 PM
+136 info attempt registry request try #1 at 1:12:35 PM
+137 http fetch GET https://registry.npmjs.org/protractor/-/protractor-1.0.0.tgz
+138 http 200 https://registry.npmjs.org/karma
+139 silly get cb [ 200,
+139 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+139 silly get     etag: '"3GT0093SKR0BKNK5CCC9RU5X1"',
+139 silly get     'content-type': 'application/json',
+139 silly get     'cache-control': 'max-age=60',
+139 silly get     'content-length': '834096',
+139 silly get     'accept-ranges': 'bytes',
+139 silly get     date: 'Fri, 03 Jul 2015 18:12:34 GMT',
+139 silly get     via: '1.1 varnish',
+139 silly get     age: '7',
+139 silly get     connection: 'keep-alive',
+139 silly get     'x-served-by': 'cache-dfw1826-DFW',
+139 silly get     'x-cache': 'HIT',
+139 silly get     'x-cache-hits': '1',
+139 silly get     'x-timer': 'S1435947154.573257,VS0,VE3',
+139 silly get     vary: 'Accept' } ]
+140 verbose get saving karma to /Users/aladiab/.npm/registry.npmjs.org/karma/.cache.json
+141 http fetch 200 https://registry.npmjs.org/protractor/-/protractor-1.0.0.tgz
+142 silly addNameRange number 2 { name: 'karma', range: '>=0.12.16 <0.13.0', hasData: true }
+143 silly addNameRange versions [ 'karma',
+143 silly addNameRange   [ '0.8.0',
+143 silly addNameRange     '0.9.0-dart',
+143 silly addNameRange     '0.8.1',
+143 silly addNameRange     '0.8.2',
+143 silly addNameRange     '0.8.3',
+143 silly addNameRange     '0.9.0',
+143 silly addNameRange     '0.8.4',
+143 silly addNameRange     '0.9.1',
+143 silly addNameRange     '0.8.5',
+143 silly addNameRange     '0.9.2',
+143 silly addNameRange     '0.9.2-dart',
+143 silly addNameRange     '0.9.3',
+143 silly addNameRange     '0.8.6',
+143 silly addNameRange     '0.9.4',
+143 silly addNameRange     '0.8.7',
+143 silly addNameRange     '0.9.5',
+143 silly addNameRange     '0.9.6',
+143 silly addNameRange     '0.8.8',
+143 silly addNameRange     '0.9.7',
+143 silly addNameRange     '0.9.8',
+143 silly addNameRange     '0.10.0',
+143 silly addNameRange     '0.10.1',
+143 silly addNameRange     '0.10.2',
+143 silly addNameRange     '0.11.0',
+143 silly addNameRange     '0.11.1',
+143 silly addNameRange     '0.10.3',
+143 silly addNameRange     '0.10.4',
+143 silly addNameRange     '0.11.2',
+143 silly addNameRange     '0.11.3',
+143 silly addNameRange     '0.10.5',
+143 silly addNameRange     '0.11.4',
+143 silly addNameRange     '0.11.5',
+143 silly addNameRange     '0.10.6',
+143 silly addNameRange     '0.11.6',
+143 silly addNameRange     '0.10.7',
+143 silly addNameRange     '0.11.7',
+143 silly addNameRange     '0.11.8',
+143 silly addNameRange     '0.11.9',
+143 silly addNameRange     '0.10.8',
+143 silly addNameRange     '0.11.10',
+143 silly addNameRange     '0.11.11',
+143 silly addNameRange     '0.11.12',
+143 silly addNameRange     '0.11.11-dev',
+143 silly addNameRange     '0.10.9',
+143 silly addNameRange     '0.11.12-dev',
+143 silly addNameRange     '0.11.12-dev2',
+143 silly addNameRange     '0.11.13',
+143 silly addNameRange     '0.11.14',
+143 silly addNameRange     '0.12.0',
+143 silly addNameRange     '0.10.10',
+143 silly addNameRange     '0.12.1',
+143 silly addNameRange     '0.12.2',
+143 silly addNameRange     '0.12.3',
+143 silly addNameRange     '0.12.4',
+143 silly addNameRange     '0.12.5',
+143 silly addNameRange     '0.12.6',
+143 silly addNameRange     '0.12.6-beta-43e6e28',
+143 silly addNameRange     '0.12.7',
+143 silly addNameRange     '0.12.8',
+143 silly addNameRange     '0.12.9',
+143 silly addNameRange     '0.12.10',
+143 silly addNameRange     '0.12.11',
+143 silly addNameRange     '0.12.12',
+143 silly addNameRange     '0.12.11-beta-3029418',
+143 silly addNameRange     '0.12.13',
+143 silly addNameRange     '0.12.14',
+143 silly addNameRange     '0.12.15',
+143 silly addNameRange     '0.12.16',
+143 silly addNameRange     '0.12.16-beta-905422d',
+143 silly addNameRange     '0.12.17',
+143 silly addNameRange     '0.12.18',
+143 silly addNameRange     '0.12.19',
+143 silly addNameRange     '0.12.20',
+143 silly addNameRange     '0.12.21',
+143 silly addNameRange     '0.12.22',
+143 silly addNameRange     '0.12.23',
+143 silly addNameRange     '0.12.24',
+143 silly addNameRange     '0.12.24-beta-6cf7955',
+143 silly addNameRange     '0.12.25',
+143 silly addNameRange     '0.12.25-beta-37a7958',
+143 silly addNameRange     '0.12.25-beta-ad5bc24',
+143 silly addNameRange     '0.12.26',
+143 silly addNameRange     '0.12.27',
+143 silly addNameRange     '0.12.28',
+143 silly addNameRange     '0.12.28-beta-b9be580',
+143 silly addNameRange     '0.12.29',
+143 silly addNameRange     '0.12.30',
+143 silly addNameRange     '0.12.31',
+143 silly addNameRange     '0.12.28-beta-f65c864',
+143 silly addNameRange     '0.12.24-dev-test',
+143 silly addNameRange     '0.12.24-dev-socketio10',
+143 silly addNameRange     '0.12.24-dev-socketio10-2',
+143 silly addNameRange     '0.12.32-beta.0',
+143 silly addNameRange     '0.12.32',
+143 silly addNameRange     '0.13.0-rc.0',
+143 silly addNameRange     '0.12.33',
+143 silly addNameRange     '0.13.0-rc.1',
+143 silly addNameRange     '0.12.34',
+143 silly addNameRange     '0.13.0-rc.2',
+143 silly addNameRange     '0.12.35',
+143 silly addNameRange     '0.13.0-rc.3',
+143 silly addNameRange     '0.12.36',
+143 silly addNameRange     '0.13.0-rc.4',
+143 silly addNameRange     '0.12.37',
+143 silly addNameRange     '0.13.0-rc.5',
+143 silly addNameRange     '0.13.0-rc.6' ] ]
+144 silly addNamed karma@0.12.37
+145 verbose addNamed "0.12.37" is a plain semver version for karma
+146 silly mapToRegistry name karma
+147 silly mapToRegistry using default registry
+148 silly mapToRegistry registry https://registry.npmjs.org/
+149 silly mapToRegistry uri https://registry.npmjs.org/karma
+150 verbose addRemoteTarball https://registry.npmjs.org/karma/-/karma-0.12.37.tgz not in flight; adding
+151 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma/-/karma-0.12.37.tgz',
+151 verbose addRemoteTarball   '1a9f7fdeccd69de2e835e04edbac2ecd3fa645e4' ]
+152 info retry fetch attempt 1 at 1:12:35 PM
+153 info attempt registry request try #1 at 1:12:35 PM
+154 http fetch GET https://registry.npmjs.org/karma/-/karma-0.12.37.tgz
+155 http 200 https://registry.npmjs.org/karma-firefox-launcher
+156 silly get cb [ 200,
+156 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+156 silly get     etag: '"4TQFNZ3WTRRUSSGSRO59LH8DX"',
+156 silly get     'content-type': 'application/json',
+156 silly get     'cache-control': 'max-age=60',
+156 silly get     'content-length': '19580',
+156 silly get     'accept-ranges': 'bytes',
+156 silly get     date: 'Fri, 03 Jul 2015 18:12:35 GMT',
+156 silly get     via: '1.1 varnish',
+156 silly get     age: '0',
+156 silly get     connection: 'keep-alive',
+156 silly get     'x-served-by': 'cache-dfw1829-DFW',
+156 silly get     'x-cache': 'HIT',
+156 silly get     'x-cache-hits': '1',
+156 silly get     'x-timer': 'S1435947154.529548,VS0,VE1047',
+156 silly get     vary: 'Accept' } ]
+157 verbose get saving karma-firefox-launcher to /Users/aladiab/.npm/registry.npmjs.org/karma-firefox-launcher/.cache.json
+158 silly mapToRegistry name karma-firefox-launcher
+159 silly mapToRegistry using default registry
+160 silly mapToRegistry registry https://registry.npmjs.org/
+161 silly mapToRegistry uri https://registry.npmjs.org/karma-firefox-launcher
+162 verbose addRemoteTarball https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.3.tgz not in flight; adding
+163 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.3.tgz',
+163 verbose addRemoteTarball   '88c8a06f55debbe64f8ca4b1f68b0b8a1f3be514' ]
+164 info retry fetch attempt 1 at 1:12:35 PM
+165 info attempt registry request try #1 at 1:12:35 PM
+166 http fetch GET https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.3.tgz
+167 http 200 https://registry.npmjs.org/karma-chrome-launcher
+168 silly get cb [ 200,
+168 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+168 silly get     etag: '"43X0F14BKTWQP5Y7LWALKU9AB"',
+168 silly get     'content-type': 'application/json',
+168 silly get     'cache-control': 'max-age=60',
+168 silly get     'content-length': '30178',
+168 silly get     'accept-ranges': 'bytes',
+168 silly get     date: 'Fri, 03 Jul 2015 18:12:35 GMT',
+168 silly get     via: '1.1 varnish',
+168 silly get     age: '0',
+168 silly get     connection: 'keep-alive',
+168 silly get     'x-served-by': 'cache-dfw1824-DFW',
+168 silly get     'x-cache': 'HIT',
+168 silly get     'x-cache-hits': '1',
+168 silly get     'x-timer': 'S1435947154.573422,VS0,VE1187',
+168 silly get     vary: 'Accept' } ]
+169 verbose get saving karma-chrome-launcher to /Users/aladiab/.npm/registry.npmjs.org/karma-chrome-launcher/.cache.json
+170 silly mapToRegistry name karma-chrome-launcher
+171 silly mapToRegistry using default registry
+172 silly mapToRegistry registry https://registry.npmjs.org/
+173 silly mapToRegistry uri https://registry.npmjs.org/karma-chrome-launcher
+174 verbose addRemoteTarball https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.4.tgz not in flight; adding
+175 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.4.tgz',
+175 verbose addRemoteTarball   '492f6b8ceed3dacb829b147514c9106660f1b185' ]
+176 info retry fetch attempt 1 at 1:12:35 PM
+177 info attempt registry request try #1 at 1:12:35 PM
+178 http fetch GET https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.4.tgz
+179 silly fetchAndShaCheck shasum 3b0305712b5fff351b72f80e59c4e0874ea8a473
+180 verbose addTmpTarball /var/folders/sz/yvsqhf_s19j180lt5xzjy5tc0000gp/T/npm-2486-3d60517d/registry.npmjs.org/protractor/-/protractor-1.0.0.tgz not in flight; adding
+181 verbose addTmpTarball already have metadata; skipping unpack for protractor@1.0.0
+182 silly cache afterAdd protractor@1.0.0
+183 verbose afterAdd /Users/aladiab/.npm/protractor/1.0.0/package/package.json not in flight; writing
+184 verbose afterAdd /Users/aladiab/.npm/protractor/1.0.0/package/package.json written
+185 http fetch 200 https://registry.npmjs.org/karma/-/karma-0.12.37.tgz
+186 http fetch 200 https://registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.3.tgz
+187 silly fetchAndShaCheck shasum 88c8a06f55debbe64f8ca4b1f68b0b8a1f3be514
+188 verbose addTmpTarball /var/folders/sz/yvsqhf_s19j180lt5xzjy5tc0000gp/T/npm-2486-3d60517d/registry.npmjs.org/karma-firefox-launcher/-/karma-firefox-launcher-0.1.3.tgz not in flight; adding
+189 verbose addTmpTarball already have metadata; skipping unpack for karma-firefox-launcher@0.1.3
+190 silly cache afterAdd karma-firefox-launcher@0.1.3
+191 verbose afterAdd /Users/aladiab/.npm/karma-firefox-launcher/0.1.3/package/package.json not in flight; writing
+192 verbose afterAdd /Users/aladiab/.npm/karma-firefox-launcher/0.1.3/package/package.json written
+193 silly fetchAndShaCheck shasum 1a9f7fdeccd69de2e835e04edbac2ecd3fa645e4
+194 verbose addTmpTarball /var/folders/sz/yvsqhf_s19j180lt5xzjy5tc0000gp/T/npm-2486-3d60517d/registry.npmjs.org/karma/-/karma-0.12.37.tgz not in flight; adding
+195 verbose addTmpTarball already have metadata; skipping unpack for karma@0.12.37
+196 silly cache afterAdd karma@0.12.37
+197 verbose afterAdd /Users/aladiab/.npm/karma/0.12.37/package/package.json not in flight; writing
+198 verbose afterAdd /Users/aladiab/.npm/karma/0.12.37/package/package.json written
+199 http fetch 200 https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.4.tgz
+200 silly fetchAndShaCheck shasum 492f6b8ceed3dacb829b147514c9106660f1b185
+201 verbose addTmpTarball /var/folders/sz/yvsqhf_s19j180lt5xzjy5tc0000gp/T/npm-2486-3d60517d/registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.4.tgz not in flight; adding
+202 verbose addTmpTarball already have metadata; skipping unpack for karma-chrome-launcher@0.1.4
+203 silly cache afterAdd karma-chrome-launcher@0.1.4
+204 verbose afterAdd /Users/aladiab/.npm/karma-chrome-launcher/0.1.4/package/package.json not in flight; writing
+205 verbose afterAdd /Users/aladiab/.npm/karma-chrome-launcher/0.1.4/package/package.json written
+206 http 503 https://registry.npmjs.org/execSync
+207 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+207 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+207 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+207 verbose bad json <html>
+207 verbose bad json   <head>
+207 verbose bad json     <title>503 backend read error</title>
+207 verbose bad json   </head>
+207 verbose bad json   <body>
+207 verbose bad json     <h1>Error 503 backend read error</h1>
+207 verbose bad json     <p>backend read error</p>
+207 verbose bad json     <h3>Guru Mediation:</h3>
+207 verbose bad json     <p>Details: cache-dfw1829-DFW 1435947176 395168112</p>
+207 verbose bad json     <hr>
+207 verbose bad json     <p>Varnish cache server</p>
+207 verbose bad json   </body>
+207 verbose bad json </html>
+208 error registry error parsing json
+209 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
+209 info retry
+209 info retry <?xml version="1.0" encoding="utf-8"?>
+209 info retry <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+209 info retry  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+209 info retry <html>
+209 info retry   <head>
+209 info retry     <title>503 backend read error</title>
+209 info retry   </head>
+209 info retry   <body>
+209 info retry     <h1>Error 503 backend read error</h1>
+209 info retry     <p>backend read error</p>
+209 info retry     <h3>Guru Mediation:</h3>
+209 info retry     <p>Details: cache-dfw1829-DFW 1435947176 395168112</p>
+209 info retry     <hr>
+209 info retry     <p>Varnish cache server</p>
+209 info retry   </body>
+209 info retry </html>
+210 info attempt registry request try #2 at 1:13:06 PM
+211 http request GET https://registry.npmjs.org/execSync
+212 http 503 https://registry.npmjs.org/execSync
+213 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+213 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+213 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+213 verbose bad json <html>
+213 verbose bad json   <head>
+213 verbose bad json     <title>503 backend read error</title>
+213 verbose bad json   </head>
+213 verbose bad json   <body>
+213 verbose bad json     <h1>Error 503 backend read error</h1>
+213 verbose bad json     <p>backend read error</p>
+213 verbose bad json     <h3>Guru Mediation:</h3>
+213 verbose bad json     <p>Details: cache-iad2139-IAD 1435947206 494497154</p>
+213 verbose bad json     <hr>
+213 verbose bad json     <p>Varnish cache server</p>
+213 verbose bad json   </body>
+213 verbose bad json </html>
+214 error registry error parsing json
+215 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
+215 info retry
+215 info retry <?xml version="1.0" encoding="utf-8"?>
+215 info retry <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+215 info retry  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+215 info retry <html>
+215 info retry   <head>
+215 info retry     <title>503 backend read error</title>
+215 info retry   </head>
+215 info retry   <body>
+215 info retry     <h1>Error 503 backend read error</h1>
+215 info retry     <p>backend read error</p>
+215 info retry     <h3>Guru Mediation:</h3>
+215 info retry     <p>Details: cache-iad2139-IAD 1435947206 494497154</p>
+215 info retry     <hr>
+215 info retry     <p>Varnish cache server</p>
+215 info retry   </body>
+215 info retry </html>
+216 info attempt registry request try #3 at 1:14:26 PM
+217 http request GET https://registry.npmjs.org/execSync
+218 http 503 https://registry.npmjs.org/execSync
+219 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+219 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+219 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+219 verbose bad json <html>
+219 verbose bad json   <head>
+219 verbose bad json     <title>503 backend read error</title>
+219 verbose bad json   </head>
+219 verbose bad json   <body>
+219 verbose bad json     <h1>Error 503 backend read error</h1>
+219 verbose bad json     <p>backend read error</p>
+219 verbose bad json     <h3>Guru Mediation:</h3>
+219 verbose bad json     <p>Details: cache-dfw1829-DFW 1435947285 395859400</p>
+219 verbose bad json     <hr>
+219 verbose bad json     <p>Varnish cache server</p>
+219 verbose bad json   </body>
+219 verbose bad json </html>
+220 error registry error parsing json
+221 verbose headers { server: 'Varnish',
+221 verbose headers   'retry-after': '0',
+221 verbose headers   'content-type': 'text/html; charset=utf-8',
+221 verbose headers   'content-length': '447',
+221 verbose headers   'accept-ranges': 'bytes',
+221 verbose headers   date: 'Fri, 03 Jul 2015 18:14:45 GMT',
+221 verbose headers   via: '1.1 varnish',
+221 verbose headers   connection: 'keep-alive',
+221 verbose headers   'x-served-by': 'cache-dfw1820-DFW',
+221 verbose headers   'x-cache': 'MISS',
+221 verbose headers   'x-cache-hits': '0',
+221 verbose headers   'x-timer': 'S1435947267.099415,VS0,VE18461' }
+222 silly get cb [ 503,
+222 silly get   { server: 'Varnish',
+222 silly get     'retry-after': '0',
+222 silly get     'content-type': 'text/html; charset=utf-8',
+222 silly get     'content-length': '447',
+222 silly get     'accept-ranges': 'bytes',
+222 silly get     date: 'Fri, 03 Jul 2015 18:14:45 GMT',
+222 silly get     via: '1.1 varnish',
+222 silly get     connection: 'keep-alive',
+222 silly get     'x-served-by': 'cache-dfw1820-DFW',
+222 silly get     'x-cache': 'MISS',
+222 silly get     'x-cache-hits': '0',
+222 silly get     'x-timer': 'S1435947267.099415,VS0,VE18461' } ]
+223 verbose stack SyntaxError: Unexpected token <
+223 verbose stack
+223 verbose stack <?xml version="1.0" encoding="utf-8"?>
+223 verbose stack <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+223 verbose stack  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+223 verbose stack <html>
+223 verbose stack   <head>
+223 verbose stack     <title>503 backend read error</title>
+223 verbose stack   </head>
+223 verbose stack   <body>
+223 verbose stack     <h1>Error 503 backend read error</h1>
+223 verbose stack     <p>backend read error</p>
+223 verbose stack     <h3>Guru Mediation:</h3>
+223 verbose stack     <p>Details: cache-dfw1829-DFW 1435947285 395859400</p>
+223 verbose stack     <hr>
+223 verbose stack     <p>Varnish cache server</p>
+223 verbose stack   </body>
+223 verbose stack </html>
+223 verbose stack
+223 verbose stack     at Object.parse (native)
+223 verbose stack     at CachingRegistryClient.<anonymous> (/Users/aladiab/.nvm/versions/node/v0.12.4/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:197:23)
+223 verbose stack     at Request._callback (/Users/aladiab/.nvm/versions/node/v0.12.4/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
+223 verbose stack     at Request.self.callback (/Users/aladiab/.nvm/versions/node/v0.12.4/lib/node_modules/npm/node_modules/request/request.js:368:22)
+223 verbose stack     at Request.emit (events.js:110:17)
+223 verbose stack     at Request.<anonymous> (/Users/aladiab/.nvm/versions/node/v0.12.4/lib/node_modules/npm/node_modules/request/request.js:1219:14)
+223 verbose stack     at Request.emit (events.js:129:20)
+223 verbose stack     at IncomingMessage.<anonymous> (/Users/aladiab/.nvm/versions/node/v0.12.4/lib/node_modules/npm/node_modules/request/request.js:1167:12)
+223 verbose stack     at IncomingMessage.emit (events.js:129:20)
+223 verbose stack     at _stream_readable.js:908:16
+224 verbose cwd /Users/aladiab/Repos/Planet-Lab/frontend
+225 error Darwin 14.4.0
+226 error argv "/Users/aladiab/.nvm/versions/node/v0.12.4/bin/node" "/Users/aladiab/.nvm/versions/node/v0.12.4/bin/npm" "install"
+227 error node v0.12.4
+228 error npm  v2.10.1
+229 error Unexpected token <
+229 error
+229 error <?xml version="1.0" encoding="utf-8"?>
+229 error <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+229 error  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+229 error <html>
+229 error   <head>
+229 error     <title>503 backend read error</title>
+229 error   </head>
+229 error   <body>
+229 error     <h1>Error 503 backend read error</h1>
+229 error     <p>backend read error</p>
+229 error     <h3>Guru Mediation:</h3>
+229 error     <p>Details: cache-dfw1829-DFW 1435947285 395859400</p>
+229 error     <hr>
+229 error     <p>Varnish cache server</p>
+229 error   </body>
+229 error </html>
+230 error If you need help, you may report this error at:
+230 error     <https://github.com/npm/npm/issues>
+231 verbose exit [ 1, true ]

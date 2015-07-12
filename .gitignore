@@ -43,3 +43,7 @@ main.css.map
 
 # sass cache
 .sass-cache/
+
+# sublime project settings
+planetlab.sublime-project
+planetlab.sublime-workspace
